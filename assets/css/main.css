@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-color: #fffff7;
+    background-color: #f3f3eb;
 }
 
 
@@ -24,15 +24,22 @@ body {
 
 .content-s1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 60px auto;
 
 }
 
 .foto {
     flex: 1;
-    margin-right: 20px;
+    margin: 20px auto;
+    color: #ff9100;
+}
+
+.foto img{
+    justify-content: center;
+    align-items: center;
 }
 
 .texto {
@@ -40,6 +47,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     max-width: 60%;
+    letter-spacing: 0.5px;
 }
 
 footer {
